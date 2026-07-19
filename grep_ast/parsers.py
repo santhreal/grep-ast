@@ -234,6 +234,7 @@ if USING_TSL_PACK:
         ".qml": "qmljs",
         # Q
         # R
+        ".regex": "regex",
         ".r": "r",
         ".R": "r",
         ".rkt": "racket",
