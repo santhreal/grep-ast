@@ -168,6 +168,7 @@ if USING_TSL_PACK:
         ".mjs": "javascript",
         ".jsdoc": "jsdoc",
         ".json": "json",
+        ".json5": "json5",
         ".jsonnet": "jsonnet",
         ".libsonnet": "jsonnet",
         ".jl": "julia",
