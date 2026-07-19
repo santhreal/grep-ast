@@ -111,6 +111,7 @@ if USING_TSL_PACK:
         # D
         ".dart": "dart",
         "Dockerfile": "dockerfile",
+        ".dockerfile": "dockerfile",
         ".dtd": "dtd",
         # E
         ".el": "elisp",
