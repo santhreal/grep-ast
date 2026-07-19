@@ -159,6 +159,7 @@ if USING_TSL_PACK:
         ".htm": "html",
         ".hypr": "hyprlang",
         # I
+        ".ini": "ini",
         ".ispc": "ispc",
         # J
         ".janet": "janet",
