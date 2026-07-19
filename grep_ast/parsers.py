@@ -73,6 +73,7 @@ if USING_TSL_PACK:
         # B
         ".sh": "bash",
         ".bash": "bash",
+        ".sqlite": "sqlite",
         ".zsh": "bash",
         ".bean": "beancount",
         ".bib": "bibtex",
