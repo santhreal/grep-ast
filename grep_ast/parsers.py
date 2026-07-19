@@ -293,6 +293,8 @@ if USING_TSL_PACK:
         ".svg": "xml",
         ".xsl": "xml",
         # Y
+        ".yaml": "yaml",
+        ".yml": "yaml",
         ".yuck": "yuck",
         # Z
         ".zig": "zig",
