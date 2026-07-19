@@ -73,7 +73,6 @@ if USING_TSL_PACK:
         # B
         ".sh": "bash",
         ".bash": "bash",
-        ".tsq": "query",
         ".zsh": "bash",
         ".bean": "beancount",
         ".bib": "bibtex",
@@ -233,6 +232,7 @@ if USING_TSL_PACK:
         # Q
         "qmldir": "qmldir",
         ".qml": "qmljs",
+        ".tsq": "query",
         # Q
         # R
         ".r": "r",
