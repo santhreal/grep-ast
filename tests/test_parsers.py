@@ -10,4 +10,4 @@ def test_get_parser_for_all_parsers():
 
 
 def test_filename_to_lang_tsq_extension():
-    assert filename_to_lang("x.tsq") == "tsq"
+    assert filename_to_lang("x.tsq") == "query"

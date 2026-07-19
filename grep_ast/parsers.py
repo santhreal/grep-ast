@@ -73,7 +73,7 @@ if USING_TSL_PACK:
         # B
         ".sh": "bash",
         ".bash": "bash",
-        ".tsq": "tsq",
+        ".tsq": "query",
         ".zsh": "bash",
         ".bean": "beancount",
         ".bib": "bibtex",
