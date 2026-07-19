@@ -238,6 +238,7 @@ if USING_TSL_PACK:
         ".R": "r",
         ".rkt": "racket",
         ".re2c": "re2c",
+        ".regex": "regex",
         ".inputrc": "readline",
         "requirements.txt": "requirements",
         ".ron": "ron",
