@@ -230,6 +230,7 @@ if USING_TSL_PACK:
         "MANIFEST.in": "pymanifest",
         ".py": "python",
         # Q
+        ".ql": "ql",
         "qmldir": "qmldir",
         ".qml": "qmljs",
         # Q
