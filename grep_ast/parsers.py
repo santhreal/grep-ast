@@ -144,6 +144,8 @@ if USING_TSL_PACK:
         "go.mod": "gomod",
         "go.sum": "gosum",
         ".groovy": "groovy",
+        ".graphql": "graphql",
+        ".gql": "graphql",
         ".launch": "gstlaunch",
         # H
         ".hack": "hack",
