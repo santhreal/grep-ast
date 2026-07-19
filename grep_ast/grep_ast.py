@@ -65,7 +65,11 @@ class TreeContext:
         self.walk_tree(root_node)
 
         if self.verbose:
-            scope_width = max(len(str(set(self.scopes[i]))) for i in range(self.num_lines - 1))
+            # Empty files have num_lines==1, so range(num_lines-1) is empty.
+            scope_width = max(
+                (len(str(set(self.scopes[i]))) for i in range(self.num_lines - 1)),
+                default=0,
+            )
         for i in range(self.num_lines):
             header = sorted(self.header[i])
             if self.verbose and i < self.num_lines - 1:
@@ -274,12 +278,16 @@ class TreeContext:
             for k in dir(node):
                 print(k, getattr(node, k))
             """
+            # Empty/whitespace: named nodes may have empty text or start past splitlines().
+            text_lines = node.text.splitlines()
+            first_text = text_lines[0] if text_lines else b""
+            line_text = self.lines[start_line] if start_line < len(self.lines) else ""
             print(
                 "   " * depth,
                 node.type,
                 f"{start_line}-{end_line}={size + 1}",
-                node.text.splitlines()[0],
-                self.lines[start_line],
+                first_text,
+                line_text,
             )
 
         if size:
