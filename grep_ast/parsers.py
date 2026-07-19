@@ -190,6 +190,8 @@ if USING_TSL_PACK:
         # M
         ".magik": "magik",
         "Makefile": "make",
+        "makefile": "make",
+        "GNUmakefile": "make",
         ".mk": "make",
         ".md": "markdown",
         ".markdown": "markdown",
