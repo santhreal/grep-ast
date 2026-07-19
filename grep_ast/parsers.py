@@ -266,7 +266,7 @@ if USING_TSL_PACK:
         ".thrift": "thrift",
         ".toml": "toml",
         ".tsv": "tsv",
-        ".tsx": "typescript",
+        ".tsx": "tsx",
         ".twig": "twig",
         ".ts": "typescript",
         ".typ": "typst",
