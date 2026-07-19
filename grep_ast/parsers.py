@@ -142,6 +142,7 @@ if USING_TSL_PACK:
         ".gni": "gn",
         ".go": "go",
         "go.mod": "gomod",
+        ".gomod": "gomod",
         "go.sum": "gosum",
         ".groovy": "groovy",
         ".launch": "gstlaunch",
