@@ -112,6 +112,7 @@ if USING_TSL_PACK:
         ".dart": "dart",
         "Dockerfile": "dockerfile",
         ".dtd": "dtd",
+        ".dot": "dot",
         # E
         ".el": "elisp",
         ".ex": "elixir",
