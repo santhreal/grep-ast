@@ -66,6 +66,7 @@ if USING_TSL_PACK:
         ".adb": "ada",
         ".ads": "ada",
         ".agda": "agda",
+        ".et": "embedded_template",
         ".ino": "arduino",
         ".asm": "asm",
         ".s": "asm",
